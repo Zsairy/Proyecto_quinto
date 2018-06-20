@@ -28,6 +28,9 @@ public class Usuario {
     private String codigo_salt;
     private String ruta_firm;
 
+    public Usuario() {
+    }
+    
     public Usuario(long codigo, String nombres, String identificacion, String nombre_corto, String clave, String clave_pregunta, String clave_respuesta, String mail, int estado, Timestamp primer_acceso, Timestamp ultimo_acceso, String ultima_ip, Timestamp fecha_modificacion, String codigo_salt, String ruta_firm) {
         this.codigo = codigo;
         this.nombres = nombres;
