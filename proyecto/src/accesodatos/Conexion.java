@@ -11,7 +11,7 @@ import java.util.List;
 public class Conexion {
 
     final String DRIVER = "org.postgresql.Driver";
-    final String URL = "jdbc:postgresql://localhost:5432/proyecto";
+    final String URL = "jdbc:postgresql://192.168.56.1:5432/proyecto";
     final String USER = "tutorias";
     final String PASS = "123456";
     Connection con = null;
